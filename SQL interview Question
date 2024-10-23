@@ -1,0 +1,69 @@
+1. SQL Server Architecture:
+Can you explain the architecture of SQL Server?
+How does SQL Server handle memory management?
+What is the difference between a clustered and a non-clustered index?
+2. Indexing:
+What is the purpose of an index in SQL Server?
+How would you decide whether to use a clustered or non-clustered index?
+Explain the concept of a covering index.
+How do you identify and resolve index fragmentation in SQL Server?
+3. Performance Tuning:
+How do you analyze and optimize slow-running queries?
+What are the different ways to improve query performance in SQL Server?
+Explain the use of the Query Execution Plan and how you interpret it.
+What is SQL Profiler, and how can it be used to tune performance?
+4. Transactions:
+What is a transaction, and how do you ensure atomicity in SQL Server?
+Explain ACID properties in SQL Server.
+What is the difference between COMMIT and ROLLBACK?
+What is a deadlock and how do you handle or prevent it?
+5. Joins and Subqueries:
+What are the different types of joins available in SQL Server?
+Can you explain the difference between an INNER JOIN and a LEFT OUTER JOIN?
+How do correlated subqueries work, and when would you use one?
+6. Stored Procedures & Functions:
+What are stored procedures, and how are they different from user-defined functions?
+How do you optimize a stored procedure for performance?
+Explain the concept of temporary tables and table variables in SQL Server.
+7. Error Handling:
+How do you implement error handling in SQL Server?
+What are TRY...CATCH blocks in SQL Server?
+How do you handle deadlock scenarios in stored procedures?
+8. Concurrency Control:
+What is the difference between pessimistic and optimistic concurrency control?
+How does SQL Server handle locking? Explain the difference between lock escalation and lock hints.
+9. Backup and Recovery:
+How do you perform a full backup, differential backup, and transaction log backup in SQL Server?
+What are the differences between full recovery mode and simple recovery mode?
+How do you restore a database from a backup in SQL Server?
+10. SQL Server Security:
+What are the various types of authentication modes available in SQL Server?
+How do you grant and revoke permissions to a user in SQL Server?
+What is the difference between server-level and database-level roles?
+11. Data Types and Constraints:
+What are some common data types in SQL Server, and how do you choose the right one for your columns?
+Explain the difference between CHAR and VARCHAR.
+What are primary key, foreign key, and unique constraints?
+12. TempDB:
+What is TempDB and how is it used in SQL Server?
+How do you monitor and troubleshoot TempDB performance issues?
+13. Dynamic SQL:
+What is dynamic SQL, and how do you execute it in SQL Server?
+What are the potential risks or disadvantages of using dynamic SQL?
+14. Partitioning:
+What is table partitioning, and when would you use it?
+How do you implement partitioning in SQL Server?
+15. CTEs and Window Functions:
+What is a Common Table Expression (CTE), and how does it differ from a derived table?
+Can you explain how window functions work in SQL Server (e.g., ROW_NUMBER(), RANK(), LEAD(), LAG())?
+16. Normalization and Denormalization:
+Explain normalization and its importance.
+When would you consider denormalizing a database, and what are the trade-offs?
+17. Triggers:
+What are triggers, and when would you use one in SQL Server?
+What is the difference between an AFTER TRIGGER and an INSTEAD OF TRIGGER?
+18. SQL Server Agent Jobs:
+How do you schedule tasks in SQL Server using SQL Server Agent?
+How would you troubleshoot a failed SQL Server Agent job?
+19. Big Data Integration:
+How do you integrate SQL Server with Big Data platforms like Hadoop or using technologies like PolyBase?
