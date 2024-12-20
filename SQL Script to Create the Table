@@ -1,0 +1,12 @@
+CREATE TABLE Employee (
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    DateOfBirth DATE NOT NULL,
+    HireDate DATE NOT NULL,
+    Department VARCHAR(50) NOT NULL,
+    Position VARCHAR(50) NOT NULL,
+    Salary DECIMAL(10, 2) NOT NULL,
+    ManagerID INT,
+    FOREIGN KEY (ManagerID) REFERENCES Employee(EmployeeID)
+);
