@@ -1,0 +1,15 @@
+#EmployeeID	FirstName	LastName	DateOfBirth	HireDate	Department	Position	Salary	ManagerID
+#1	John	Doe	1985-07-15	2010-05-20	IT	Software Engineer	75000.00	NULL
+#2	Jane	Smith	1990-03-10	2015-07-01	HR	HR Manager	80000.00	NULL
+#3	Alice	Johnson	1992-12-25	2020-01-10	IT	Junior Developer	50000.00	1
+#4	Bob	Brown	1980-08-20	2005-09-15	Finance	Financial Analyst	90000.00	NULL
+#5	Charlie	Wilson	1987-11-05	2012-04-25	IT	Senior Developer	85000.00	1
+
+
+
+
+
+
+SELECT * 
+FROM Employee 
+WHERE Department = 'IT';
